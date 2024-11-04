@@ -16,7 +16,7 @@ return computerChoice;
 }
 let computerScore=0;
 let userScore=0;
-for(i=0;i<5;i++){
+for(let i=0;i<5;i++){
     let userChoice=prompt("Insert your choice( Scissors,Rock or paper)")
     let computerChoicee=computerChoice();
     if(userChoice.toLowerCase()==="scissors" && computerChoicee.toLowerCase() ==="paper"){
